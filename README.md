@@ -1,6 +1,6 @@
 # HnScraper
 
-TODO: Write a gem description
+A gem for logging in and posting to Hacker News
 
 ## Installation
 
