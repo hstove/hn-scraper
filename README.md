@@ -25,6 +25,7 @@ if HNScraper.valid_hn_cookie?(cookie)
   url = "https://github.com/hstove/hn-scraper"
   title = "A Ruby Gem for Posting to Hacker News"
   HNScraper.post_to_hn("username", "password", title, url)
+  # HNScraper.post_to_hn "username", "password",url, 'just thought I'd post this'
   link = HNScraper.newest_link
   puts "Posted: #{link}"
 end
